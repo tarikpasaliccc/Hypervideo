@@ -1,40 +1,40 @@
 //JSON shenanigans
 let text = '{"Object":[' +
     '{"Name":"SKARVLO 499e", "Description":"Under the slatted base, which can be lifted, hides a practical storage space. The simple and versatile design coordinates well with other bedroom furniture and fits perfectly in any modern bedroom. If you read or watch TV in bed the soft headboard is comfortable to lean against.", "Start":"0", "End":"25" },' +
-    '{"Stage":1, "Start":"0", "End":"4", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
-    '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"25", "Height":"60" },' +
-    '{"Stage":3, "Start":"8", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":1, "Start":"0", "End":"4", "X":"20", "Y":"5", "Width":"35", "Height":"30" },' +
+    '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"30", "Height":"40" },' +
+    '{"Stage":3, "Start":"8", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"20" },' +
     '{"Stage":4, "Start":"11", "End":"17", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
-    '{"Stage":5, "Start":"18", "End":"20", "X":"23", "Y":"25", "Width":"25", "Height":"15" },'+
-    '{"Stage":6, "Start":"21", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
+    '{"Stage":5, "Start":"18", "End":"20", "X":"23", "Y":"25", "Width":"20", "Height":"15" },'+
+    '{"Stage":6, "Start":"21", "End":"25", "X":"35", "Y":"25", "Width":"22", "Height":"15" }]}';
 
 let text2 = '{"Object":[' +
     '{"Name":"LAMP", "Description":"Das ist ein LAMP!", "Start":"7", "End":"25" },' +
     '{"Stage":1, "Start":"7", "End":"10", "X":"30", "Y":"0", "Width":"10", "Height":"10" },' +
     '{"Stage":2, "Start":"11", "End":"17", "X":"25", "Y":"0", "Width":"20", "Height":"25" },' +
     '{"Stage":3, "Start":"18", "End":"20", "X":"35", "Y":"0", "Width":"20", "Height":"25" },' +
-    '{"Stage":3, "Start":"21", "End":"22", "X":"45", "Y":"0", "Width":"20", "Height":"25" },' +
-    '{"Stage":4, "Start":"23", "End":"25", "X":"45", "Y":"0", "Width":"20", "Height":"10" }]}';
+    '{"Stage":3, "Start":"21", "End":"22", "X":"45", "Y":"0", "Width":"12", "Height":"25" },' +
+    '{"Stage":4, "Start":"23", "End":"25", "X":"45", "Y":"0", "Width":"12", "Height":"10" }]}';
 
 let text3 = '{"Object":[' +
     '{"Name":"Kinder Bett", "Description":"Das ist ein Kinder Bett!", "Start":"28", "End":"54" },' +
-    '{"Stage":29, "Start":"28", "End":"30", "X":"15", "Y":"25", "Width":"35", "Height":"60" },' +
-    '{"Stage":200, "Start":"31", "End":"33", "X":"15", "Y":"20", "Width":"35", "Height":"60" },' +
-    '{"Stage":200, "Start":"34", "End":"36", "X":"15", "Y":"15", "Width":"35", "Height":"60" },' +
-    '{"Stage":200, "Start":"40", "End":"46", "X":"15", "Y":"5", "Width":"35", "Height":"60" },' +
-    '{"Stage":200, "Start":"47", "End":"49", "X":"5", "Y":"5", "Width":"35", "Height":"60" },'+
-    '{"Stage":200, "Start":"50", "End":"53", "X":"0", "Y":"5", "Width":"15", "Height":"60" }]}';
+    '{"Stage":29, "Start":"28", "End":"30", "X":"15", "Y":"25", "Width":"35", "Height":"15" },' +
+    '{"Stage":200, "Start":"31", "End":"33", "X":"15", "Y":"20", "Width":"35", "Height":"22" },' +
+    '{"Stage":200, "Start":"34", "End":"36", "X":"15", "Y":"15", "Width":"35", "Height":"33" },' +
+    '{"Stage":200, "Start":"40", "End":"46", "X":"15", "Y":"5", "Width":"35", "Height":"45" },' +
+    '{"Stage":200, "Start":"47", "End":"49", "X":"5", "Y":"5", "Width":"35", "Height":"45" },'+
+    '{"Stage":200, "Start":"50", "End":"53", "X":"0", "Y":"5", "Width":"15", "Height":"45" }]}';
 
 let text4 = '{"Object":[' +
     '{"Name":"Uhr", "Description":"Das ist ein Uhr!", "Start":"53", "End":"78" },' +
     '{"Stage":29, "Start":"53", "End":"54", "X":"50", "Y":"0", "Width":"8", "Height":"15" },' +
     '{"Stage":200, "Start":"55", "End":"56", "X":"45", "Y":"0", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"57", "End":"58", "X":"40", "Y":"15", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"59", "End":"60", "X":"15", "Y":"5", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"61", "End":"62", "X":"5", "Y":"5", "Width":"8", "Height":"15" },'+
-    '{"Stage":200, "Start":"62", "End":"64", "X":"5", "Y":"5", "Width":"8", "Height":"15" },'+
-    '{"Stage":200, "Start":"65", "End":"70", "X":"5", "Y":"5", "Width":"8", "Height":"15" },'+
-    '{"Stage":200, "Start":"71", "End":"78", "X":"0", "Y":"5", "Width":"8", "Height":"15" }]}';
+    '{"Stage":200, "Start":"57", "End":"58", "X":"35", "Y":"3", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"59", "End":"60", "X":"25", "Y":"5", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"61", "End":"62", "X":"25", "Y":"7", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"62", "End":"64", "X":"20", "Y":"9", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"65", "End":"70", "X":"20", "Y":"15", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"71", "End":"78", "X":"17", "Y":"20", "Width":"8", "Height":"15" }]}';
 
 let text7 = '{"Object":[' +
     '{"Name":"Couch", "Description":"Das ist ein Coach!", "Start":"128", "End":"149" },' +
@@ -46,7 +46,6 @@ let text8 = '{"Object":[' +
     '{"Stage":2, "Start":"152", "End":"153", "X":"31", "Y":"15", "Width":"20", "Height":"35" },' +
     '{"Stage":3, "Start":"154", "End":"155", "X":"29", "Y":"20", "Width":"20", "Height":"25" },' +
     '{"Stage":4, "Start":"156", "End":"157", "X":"30", "Y":"22", "Width":"20", "Height":"20" }]}';
-
 
 let text9 = '{"Object":[' +
     '{"Name":"Lampe", "Description":"Das ist eine Lampe!", "Start":"158", "End":"165" },' +
@@ -74,12 +73,11 @@ let text12 = '{"Object":[' +
     '{"Stage":2, "Start":"187", "End":"188", "X":"44", "Y":"15", "Width":"15", "Height":"30" },' +
     '{"Stage":3, "Start":"189", "End":"190", "X":"48", "Y":"15", "Width":"10", "Height":"33" }]}';
 
-
 let text13 = '{"Object":[' +
     '{"Name":"Bett", "Description":"Das ist ein Bett!", "Start":"185", "End":"195" },' +
     '{"Stage":1, "Start":"185", "End":"186", "X":"3", "Y":"10", "Width":"35", "Height":"40" },' +
     '{"Stage":2, "Start":"187", "End":"188", "X":"4", "Y":"10", "Width":"35", "Height":"40" },' +
-    '{"Stage":2, "Start":"189", "End":"190", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":2, "Start":"189", "End":"190", "X":"5", "Y":"10", "Width":"35", "Height":"35" },' +
     '{"Stage":2, "Start":"191", "End":"192", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
     '{"Stage":3, "Start":"193", "End":"194", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
 
@@ -101,6 +99,7 @@ let text16 = '{"Object":[' +
     '{"Stage":1, "Start":"230", "End":"231", "X":"186", "Y":"10", "Width":"10", "Height":"10" },' +
     '{"Stage":2, "Start":"232", "End":"233", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
     '{"Stage":2, "Start":"234", "End":"235", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+
 
 const obj = JSON.parse(text);
 const obj2 = JSON.parse(text2);
