@@ -4,9 +4,9 @@ let text = '{"Object":[' +
     '{"Stage":1, "Start":"0", "End":"4", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
     '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"25", "Height":"60" },' +
     '{"Stage":3, "Start":"8", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":4, "Start":"11", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
-    '{"Stage":5, "Start":"20", "End":"22", "X":"23", "Y":"25", "Width":"25", "Height":"15" },'+
-    '{"Stage":6, "Start":"23", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
+    '{"Stage":4, "Start":"11", "End":"17", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
+    '{"Stage":5, "Start":"18", "End":"20", "X":"23", "Y":"25", "Width":"25", "Height":"15" },'+
+    '{"Stage":6, "Start":"21", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
 
 let text2 = '{"Object":[' +
     '{"Name":"Schrank", "Description":"Das ist ein Schrank!", "Start":"100", "End":"200" },' +
