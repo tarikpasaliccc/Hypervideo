@@ -1,0 +1,42 @@
+body {
+    font-family: Arial,serif;
+    margin: 0;
+}
+
+.header {
+    padding: 20px;
+    text-align: center;
+    background: #fbda0c;
+    color: #0057ad;
+    font-size: 30px;
+}
+
+.video {
+    margin-top: 2%;
+}
+
+.button {
+    position: absolute;
+    border: none !important;
+    z-index: 1;
+    background: green;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    outline: 2px solid yellow;
+}
+
+.textbox {
+    margin-left: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: flex-start;
+}
