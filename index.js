@@ -1,24 +1,26 @@
 //JSON shenanigans
 let text = '{"Object":[' +
-    '{"Name":"Bett", "Description":"Das ist ein Bett!", "Start":"0", "End":"25" },' +
-    '{"Stage":1, "Start":"0", "End":"5", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
-    '{"Stage":2, "Start":"6", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":3, "Start":"11", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
-    '{"Stage":4, "Start":"20", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
+    '{"Name":"SKARVLO 499e", "Description":"Under the slatted base, which can be lifted, hides a practical storage space. The simple and versatile design coordinates well with other bedroom furniture and fits perfectly in any modern bedroom. If you read or watch TV in bed the soft headboard is comfortable to lean against.", "Start":"0", "End":"25" },' +
+    '{"Stage":1, "Start":"0", "End":"4", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
+    '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"25", "Height":"60" },' +
+    '{"Stage":3, "Start":"8", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":4, "Start":"11", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
+    '{"Stage":5, "Start":"20", "End":"22", "X":"23", "Y":"25", "Width":"25", "Height":"15" },'+
+    '{"Stage":6, "Start":"23", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
 
 let text2 = '{"Object":[' +
-    '{"Name":"Schrank", "Description":"Das ist ein Schrank!", "Start":"10", "End":"25" },' +
-    '{"Stage":1, "Start":"0", "End":"5", "X":"10", "Y":"10", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"6", "End":"10", "X":"30", "Y":"30", "Width":"5", "Height":"40" },' +
-    '{"Stage":3, "Start":"11", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
-    '{"Stage":4, "Start":"20", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
+    '{"Name":"Schrank", "Description":"Das ist ein Schrank!", "Start":"100", "End":"200" },' +
+    '{"Stage":1, "Start":"100", "End":"100", "X":"10", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"100", "End":"100", "X":"30", "Y":"30", "Width":"5", "Height":"40" },' +
+    '{"Stage":3, "Start":"100", "End":"100", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
+    '{"Stage":4, "Start":"100", "End":"100", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
 
 let text3 = '{"Object":[' +
-    '{"Name":"Stuhl", "Description":"Das ist ein Stuhl!", "Start":"20", "End":"200" },' +
-    '{"Stage":1, "Start":"50", "End":"100", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
-    '{"Stage":2, "Start":"6", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":3, "Start":"11", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
-    '{"Stage":4, "Start":"20", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
+    '{"Name":"Stuhl", "Description":"Das ist ein Stuhl!", "Start":"200", "End":"200" },' +
+    '{"Stage":200, "Start":"200", "End":"100", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"200", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":200, "Start":"200", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
+    '{"Stage":200, "Start":"200", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
 
 const obj = JSON.parse(text);
 const obj2 = JSON.parse(text2);
@@ -92,18 +94,8 @@ function anime(x,y, width, height, number){
 
 // Show Text when buttons get pressed
 function showText(objectNumber){
-    if (objectNumber === 1) {
-        document.getElementById("objectName").innerHTML = objects[0].Object[0].Name;
-        document.getElementById("objectDescription").innerHTML = objects[0].Object[0].Description;
-    }
-    else if (objectNumber === 2) {
-        document.getElementById("objectName").innerHTML = "test2";
-        document.getElementById("objectDescription").innerHTML = "test2";
-    }
-    else if (objectNumber === 3) {
-        document.getElementById("objectName").innerHTML = "test3";
-        document.getElementById("objectDescription").innerHTML = "test3";
-    }
+        document.getElementById("objectName").innerHTML = objects[objectNumber-1].Object[0].Name;
+        document.getElementById("objectDescription").innerHTML = objects[objectNumber-1].Object[0].Description;
 }
 
 // Check time every 5 Seconds
