@@ -1,25 +1,40 @@
 //JSON shenanigans
 let text = '{"Object":[' +
-    '{"Name":"Bett", "Description":"Das ist ein Bett!", "Start":"0", "End":"25" },' +
-    '{"Stage":1, "Start":"0", "End":"5", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
-    '{"Stage":2, "Start":"6", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":3, "Start":"11", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
-    '{"Stage":4, "Start":"20", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
+    '{"Name":"SKARVLO 499e", "Description":"Under the slatted base, which can be lifted, hides a practical storage space. The simple and versatile design coordinates well with other bedroom furniture and fits perfectly in any modern bedroom. If you read or watch TV in bed the soft headboard is comfortable to lean against.", "Start":"0", "End":"25" },' +
+    '{"Stage":1, "Start":"0", "End":"4", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
+    '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"25", "Height":"60" },' +
+    '{"Stage":3, "Start":"8", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":4, "Start":"11", "End":"17", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
+    '{"Stage":5, "Start":"18", "End":"20", "X":"23", "Y":"25", "Width":"25", "Height":"15" },'+
+    '{"Stage":6, "Start":"21", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
 
 let text2 = '{"Object":[' +
-    '{"Name":"Schrank", "Description":"Das ist ein Schrank!", "Start":"10", "End":"25" },' +
-    '{"Stage":1, "Start":"0", "End":"5", "X":"10", "Y":"10", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"6", "End":"10", "X":"30", "Y":"30", "Width":"5", "Height":"40" },' +
-    '{"Stage":3, "Start":"11", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
-    '{"Stage":4, "Start":"20", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
+    '{"Name":"LAMP", "Description":"Das ist ein LAMP!", "Start":"7", "End":"25" },' +
+    '{"Stage":1, "Start":"7", "End":"10", "X":"30", "Y":"0", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"11", "End":"17", "X":"25", "Y":"0", "Width":"20", "Height":"25" },' +
+    '{"Stage":3, "Start":"18", "End":"20", "X":"35", "Y":"0", "Width":"20", "Height":"25" },' +
+    '{"Stage":3, "Start":"21", "End":"22", "X":"45", "Y":"0", "Width":"20", "Height":"25" },' +
+    '{"Stage":4, "Start":"23", "End":"25", "X":"45", "Y":"0", "Width":"20", "Height":"10" }]}';
 
 let text3 = '{"Object":[' +
-    '{"Name":"Stuhl", "Description":"Das ist ein Stuhl!", "Start":"20", "End":"200" },' +
-    '{"Stage":1, "Start":"50", "End":"100", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
-    '{"Stage":2, "Start":"6", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":3, "Start":"11", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
-    '{"Stage":4, "Start":"20", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
+    '{"Name":"Kinder Bett", "Description":"Das ist ein Kinder Bett!", "Start":"28", "End":"54" },' +
+    '{"Stage":29, "Start":"28", "End":"30", "X":"15", "Y":"25", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"31", "End":"33", "X":"15", "Y":"20", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"34", "End":"36", "X":"15", "Y":"15", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"40", "End":"46", "X":"15", "Y":"5", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"47", "End":"49", "X":"5", "Y":"5", "Width":"35", "Height":"60" },'+
+    '{"Stage":200, "Start":"50", "End":"53", "X":"0", "Y":"5", "Width":"15", "Height":"60" }]}';
 
+let text4 = '{"Object":[' +
+    '{"Name":"Uhr", "Description":"Das ist ein Uhr!", "Start":"53", "End":"78" },' +
+    '{"Stage":29, "Start":"53", "End":"54", "X":"50", "Y":"0", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"55", "End":"56", "X":"45", "Y":"0", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"57", "End":"58", "X":"40", "Y":"15", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"59", "End":"60", "X":"15", "Y":"5", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"61", "End":"62", "X":"5", "Y":"5", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"62", "End":"64", "X":"5", "Y":"5", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"65", "End":"70", "X":"5", "Y":"5", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"71", "End":"78", "X":"0", "Y":"5", "Width":"8", "Height":"15" }]}';
 
 let text7 = '{"Object":[' +
     '{"Name":"Couch", "Description":"Das ist ein Coach!", "Start":"128", "End":"149" },' +
@@ -87,28 +102,36 @@ let text16 = '{"Object":[' +
     '{"Stage":2, "Start":"232", "End":"233", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
     '{"Stage":2, "Start":"234", "End":"235", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
 
-
-//const obj = JSON.parse(text);
-//const obj2 = JSON.parse(text2);
-//const obj3 = JSON.parse(text3);
-//const obj = JSON.parse(text7);
-//const obj2 = JSON.parse(text8);
-//const obj3 = JSON.parse(text9)
-//const obj = JSON.parse(text10);
-//const obj2 = JSON.parse(text11);
-//const obj3 = JSON.parse(text12);
-const obj = JSON.parse(text13);
-const obj2 = JSON.parse(text14);
-const obj3 = JSON.parse(text15);
+const obj = JSON.parse(text);
+const obj2 = JSON.parse(text2);
+const obj3 = JSON.parse(text3);
+const obj4 = JSON.parse(text4);
+const obj7 = JSON.parse(text7);
+const obj8 = JSON.parse(text8);
+const obj9 = JSON.parse(text9)
+const obj10 = JSON.parse(text10);
+const obj11 = JSON.parse(text11);
+const obj12 = JSON.parse(text12);
+const obj13 = JSON.parse(text13);
+const obj14 = JSON.parse(text14);
+const obj15 = JSON.parse(text15);
 const obj16 = JSON.parse(text16);
-const objects = [obj, obj2, obj3, obj16];
-
-//obj7, obj8, obj9, obj10, obj11, obj12, obj13, obj14,obj15,
+const objects = [obj, obj2, obj3, obj4, obj7, obj8, obj9, obj10, obj11, obj12, obj13, obj14,obj15, obj16];
 
 // Not showing Buttons from the get-go
 document.getElementById("box1").style.display = "none";
 document.getElementById("box2").style.display = "none";
 document.getElementById("box3").style.display = "none";
+document.getElementById("box7").style.display = "none";
+document.getElementById("box8").style.display = "none";
+document.getElementById("box9").style.display = "none";
+document.getElementById("box10").style.display = "none";
+document.getElementById("box11").style.display = "none";
+document.getElementById("box12").style.display = "none";
+document.getElementById("box13").style.display = "none";
+document.getElementById("box14").style.display = "none";
+document.getElementById("box15").style.display = "none";
+document.getElementById("box16").style.display = "none";
 
 
 // Gets the video
@@ -121,7 +144,7 @@ function checkPlaybackTime() {
     let j = 0;
     while (j < objects.length) {
 
-        let boxes = ["box1", "box2", "box3"];
+        let boxes = ["box1", "box2", "box3","box4","box5","box6","box7","box8","box9","box10","box11","box12","box13","box14","box15","box16"];
 
         // Define when to show the object and when not
         if(objects[j].Object[0].Start <= currentTime && currentTime <= objects[j].Object[0].End) {
@@ -146,43 +169,17 @@ function checkPlaybackTime() {
 
 // moveable Box
 function anime(x,y, width, height, number){
-    if(number===0) {
-        $('#box1')
+         $(`#box${number+1}`)
             .animate({'marginLeft': x + '%'},1)
             .animate({'marginTop': y + '%'},1)
             .animate({'width': width + '%'}, 1)
             .animate({'height': height + '%'}, 1);
-    }
-    else if(number===1) {
-        $('#box2')
-            .animate({'marginLeft': x + '%'},1)
-            .animate({'marginTop': y + '%'},1)
-            .animate({'width': width + '%'}, 1)
-            .animate({'height': height + '%'}, 1);
-    }
-    else if(number===2) {
-        $('#box3')
-            .animate({'marginLeft': x + '%'},1)
-            .animate({'marginTop': y + '%'},1)
-            .animate({'width': width + '%'}, 1)
-            .animate({'height': height + '%'}, 1);
-    }
 }
 
 // Show Text when buttons get pressed
 function showText(objectNumber){
-    if (objectNumber === 1) {
-        document.getElementById("objectName").innerHTML = objects[0].Object[0].Name;
-        document.getElementById("objectDescription").innerHTML = objects[0].Object[0].Description;
-    }
-    else if (objectNumber === 2) {
-        document.getElementById("objectName").innerHTML = "test2";
-        document.getElementById("objectDescription").innerHTML = "test2";
-    }
-    else if (objectNumber === 3) {
-        document.getElementById("objectName").innerHTML = "test3";
-        document.getElementById("objectDescription").innerHTML = "test3";
-    }
+        document.getElementById("objectName").innerHTML = objects[objectNumber-1].Object[0].Name;
+        document.getElementById("objectDescription").innerHTML = objects[objectNumber-1].Object[0].Description;
 }
 
 // Check time every 5 Seconds
