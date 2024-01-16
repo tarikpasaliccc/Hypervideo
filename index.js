@@ -22,11 +22,85 @@ let text3 = '{"Object":[' +
     '{"Stage":200, "Start":"200", "End":"19", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
     '{"Stage":200, "Start":"200", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
 
+
+let text7 = '{"Object":[' +
+    '{"Name":"Couch", "Description":"Das ist ein Coach!", "Start":"128", "End":"149" },' +
+    '{"Stage":1, "Start":"128", "End":"149", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
+
+let text8 = '{"Object":[' +
+    '{"Name":"Schrank", "Description":"Das ist ein Schrank!", "Start":"150", "End":"165" },' +
+    '{"Stage":1, "Start":"150", "End":"151", "X":"10", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"152", "End":"153", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":3, "Start":"154", "End":"155", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":4, "Start":"156", "End":"157", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":5, "Start":"158", "End":"159", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+
+
+let text9 = '{"Object":[' +
+    '{"Name":"Lampe", "Description":"Das ist eine Lampe!", "Start":"160", "End":"165" },' +
+    '{"Stage":1, "Start":"160", "End":"162", "X":"10", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"163", "End":"165", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+
+let text10 = '{"Object":[' +
+    '{"Name":"Bett", "Description":"Das ist ein Bett!", "Start":"166", "End":"183" },' +
+    '{"Stage":1, "Start":"166", "End":"170", "X":"10", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"171", "End":"184", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+
+let text11 = '{"Object":[' +
+    '{"Name":"Nachtkasten", "Description":"Das ist ein Nachtkasten!", "Start":"166", "End":"183" },' +
+    '{"Stage":1, "Start":"166", "End":"170", "X":"10", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"171", "End":"176", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":3, "Start":"177", "End":"183", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
+
+let text12 = '{"Object":[' +
+    '{"Name":"Nachtkästchen", "Description":"Das ist ein Nachtkästchen!", "Start":"185", "End":"190" },' +
+    '{"Stage":1, "Start":"185", "End":"186", "X":"186", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"187", "End":"188", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":3, "Start":"189", "End":"190", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
+
+
+let text13 = '{"Object":[' +
+    '{"Name":"Bett", "Description":"Das ist ein Bett!", "Start":"185", "End":"195" },' +
+    '{"Stage":1, "Start":"185", "End":"186", "X":"186", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"187", "End":"188", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":2, "Start":"189", "End":"190", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":2, "Start":"191", "End":"192", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":3, "Start":"193", "End":"194", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
+
+let text14 = '{"Object":[' +
+    '{"Name":"Bild", "Description":"Das ist ein Bild!", "Start":"196", "End":"201" },' +
+    '{"Stage":1, "Start":"196", "End":"199", "X":"199", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"200", "End":"201", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+
+let text15 = '{"Object":[' +
+    '{"Name":"Kissen", "Description":"Das ist ein Kissen!", "Start":"204", "End":"213" },' +
+    '{"Stage":1, "Start":"204", "End":"205", "X":"186", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"206", "End":"207", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":2, "Start":"208", "End":"209", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":2, "Start":"210", "End":"211", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":3, "Start":"212", "End":"213", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
+
+let text16 = '{"Object":[' +
+    '{"Name":"Wandregal", "Description":"Das ist ein Wandregal!", "Start":"230", "End":"236" },' +
+    '{"Stage":1, "Start":"230", "End":"231", "X":"186", "Y":"10", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"232", "End":"233", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
+    '{"Stage":2, "Start":"234", "End":"235", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+
+
 const obj = JSON.parse(text);
 const obj2 = JSON.parse(text2);
 const obj3 = JSON.parse(text3);
-const objects = [obj, obj2, obj3];
-
+const obj7 = JSON.parse(text7);
+const obj8 = JSON.parse(text8);
+const obj9 = JSON.parse(text9)
+const obj10 = JSON.parse(text10);
+const obj11 = JSON.parse(text11);
+const obj12 = JSON.parse(text12);
+const obj13 = JSON.parse(text13);
+const obj14 = JSON.parse(text14);
+const obj15 = JSON.parse(text15);
+const obj16 = JSON.parse(text16);
+const objects = [obj, obj2, obj3, obj7, obj8, obj9, obj10, obj11, obj12, obj13, obj14,obj15, obj16];
 
 // Not showing Buttons from the get-go
 document.getElementById("box1").style.display = "none";
