@@ -9,7 +9,7 @@ let text = '{"Object":[' +
     '{"Stage":6, "Start":"21", "End":"25", "X":"35", "Y":"25", "Width":"22", "Height":"15" }]}';
 
 let text2 = '{"Object":[' +
-    '{"Name":"LAMP", "Description":"Das ist ein LAMP!", "Start":"7", "End":"25" },' +
+    '{"Name":"DEJSA", "Description":"Wenn du die Beleuchtung je nach Stimmung und Bedarf verändern willst, ist das TRÅDFRI Set mit Fernbedienung eine gute Wahl. Damit kannst du das Licht drahtlos dimmen und zwischen warmem und kaltem Licht umschalten. Zubehör wird separat verkauft. Die Glasschirme sind von talentierten Kunsthandwerkern mundgeblasen. Gute Allgemeinbeleuchtung. Designer: C Halskov/H Dalsgaard", "Start":"7", "End":"25" },' +
     '{"Stage":1, "Start":"7", "End":"10", "X":"30", "Y":"0", "Width":"10", "Height":"10" },' +
     '{"Stage":2, "Start":"11", "End":"17", "X":"25", "Y":"0", "Width":"20", "Height":"25" },' +
     '{"Stage":3, "Start":"18", "End":"20", "X":"35", "Y":"0", "Width":"20", "Height":"25" },' +
@@ -17,7 +17,7 @@ let text2 = '{"Object":[' +
     '{"Stage":4, "Start":"23", "End":"25", "X":"45", "Y":"0", "Width":"12", "Height":"10" }]}';
 
 let text3 = '{"Object":[' +
-    '{"Name":"Kinder Bett", "Description":"Das ist ein Kinder Bett!", "Start":"28", "End":"54" },' +
+    '{"Name":"SONGESAND", "Description":"Dieses klassische Bettgestell wird mit den Textilien und den Schlafzimmermoebeln deiner Wahl grossartig zur Wirkung kommen. Besonders harmonisch ist eine Kombination mit weiteren Produkten aus der SONGESAND Serie.", "Start":"28", "End":"54" },' +
     '{"Stage":29, "Start":"28", "End":"30", "X":"15", "Y":"25", "Width":"35", "Height":"15" },' +
     '{"Stage":200, "Start":"31", "End":"33", "X":"15", "Y":"20", "Width":"35", "Height":"22" },' +
     '{"Stage":200, "Start":"34", "End":"36", "X":"15", "Y":"15", "Width":"35", "Height":"33" },' +
@@ -26,7 +26,7 @@ let text3 = '{"Object":[' +
     '{"Stage":200, "Start":"50", "End":"53", "X":"0", "Y":"5", "Width":"15", "Height":"45" }]}';
 
 let text4 = '{"Object":[' +
-    '{"Name":"Uhr", "Description":"Das ist ein Uhr!", "Start":"53", "End":"78" },' +
+    '{"Name":"PLUTTIS", "Description": "Grosse und deutliche Zahlen machen das Zeitablesen einfach. Kein stoerendes Tickgeraeusch, da die Uhr ueber ein Quarzuhrwerk verfuegt. Dank Quarzuhrwerk besonders praezise.", "Start":"53", "End":"78" },' +
     '{"Stage":29, "Start":"53", "End":"54", "X":"50", "Y":"0", "Width":"8", "Height":"15" },' +
     '{"Stage":200, "Start":"55", "End":"56", "X":"45", "Y":"0", "Width":"8", "Height":"15" },' +
     '{"Stage":200, "Start":"57", "End":"58", "X":"35", "Y":"3", "Width":"8", "Height":"15" },' +
@@ -37,44 +37,44 @@ let text4 = '{"Object":[' +
     '{"Stage":200, "Start":"71", "End":"78", "X":"17", "Y":"20", "Width":"8", "Height":"15" }]}';
 
 let text7 = '{"Object":[' +
-    '{"Name":"Couch", "Description":"Das ist ein Coach!", "Start":"128", "End":"149" },' +
+    '{"Name":"SOEDERHAMN", "Description":"In SOEDERHAMN Polstermoebeln mit niedriger, tiefer, weicher Sitzflaeche sorgen lose Rueckenkissen fuer zusaetzlichen Halt. Leichtes, luftiges Design mit hohen Beinen und schlanken Linien, trotzdem mit grossem Komfort dank des elastischen Geflechts im Boden und des hochelastischen Schaums in den Sitzpolstern. Die einzelnen Elemente des Sofas koennen frei stehend genutzt oder vielseitig zu einer Groesse und Form kombiniert werden, die ideal in dein Zuhause passt.", "Start":"128", "End":"149" },' +
     '{"Stage":1, "Start":"128", "End":"147", "X":"12", "Y":"15", "Width":"35", "Height":"30" }]}';
 
 let text8 = '{"Object":[' +
-    '{"Name":"Schrank", "Description":"Das ist ein Schrank!", "Start":"150", "End":"157" },' +
+    '{"Name":"EKET", "Description":"Durch Kombination von offener und geschlossener Aufbewahrung laesst sich Dekoratives und Nuetzliches nach Bedarf zeigen oder verbergen. Eine niedrige Kombination bietet praktische Aufbewahrung z.B. unter einem Fenster. Dank des integrierten Druckoeffners laesst sich die Tuer mit einem leichten Druck oeffnen.", "Start":"150", "End":"157" },' +
     '{"Stage":1, "Start":"150", "End":"151", "X":"35", "Y":"10", "Width":"20", "Height":"40" },' +
     '{"Stage":2, "Start":"152", "End":"153", "X":"31", "Y":"15", "Width":"20", "Height":"35" },' +
     '{"Stage":3, "Start":"154", "End":"155", "X":"29", "Y":"20", "Width":"20", "Height":"25" },' +
     '{"Stage":4, "Start":"156", "End":"157", "X":"30", "Y":"22", "Width":"20", "Height":"20" }]}';
 
 let text9 = '{"Object":[' +
-    '{"Name":"Lampe", "Description":"Das ist eine Lampe!", "Start":"158", "End":"165" },' +
+    '{"Name":"GRIMSAS", "Description":"Wirft dekorative Muster an Zimmerdecke und Wand.", "Start":"158", "End":"165" },' +
     '{"Stage":1, "Start":"158", "End":"159", "X":"40", "Y":"10", "Width":"20", "Height":"25" },' +
     '{"Stage":2, "Start":"160", "End":"161", "X":"40", "Y":"11", "Width":"20", "Height":"25" },' +
     '{"Stage":2, "Start":"162", "End":"163", "X":"40", "Y":"13", "Width":"20", "Height":"25" },' +
     '{"Stage":3, "Start":"164", "End":"165", "X":"40", "Y":"15", "Width":"20", "Height":"25" }]}';
 
 let text10 = '{"Object":[' +
-    '{"Name":"Bett", "Description":"Das ist ein Bett!", "Start":"166", "End":"183" },' +
+    '{"Name":"HEMNES", "Description":"Mit diesem Tagesbett bereitest du im Handumdrehen Platz fuer Uebernachtungsgaeste. Einfach die Liegeflaeche herausziehen - voila! Ein bequemes Doppelbett! In den geraeumigen Schubkaesten ist viel Platz fuer Decken, Kissen, Bettwaesche oder anderes, was du gern griffbereit, aber ausser Sichtweite unterbringst. Der Bettrahmen ist lackiert, damit er besonders pflegeleicht wird. Durch seine wohnliche Hoehe wirkt das Bett wie eine gemuetliche Koje.", "Start":"166", "End":"183" },' +
     '{"Stage":1, "Start":"166", "End":"170", "X":"20", "Y":"15", "Width":"35", "Height":"33" },' +
     '{"Stage":2, "Start":"171", "End":"174", "X":"20", "Y":"15", "Width":"35", "Height":"33" },' +
     '{"Stage":3, "Start":"175", "End":"184", "X":"20", "Y":"15", "Width":"38", "Height":"33" }]}';
 
 let text11 = '{"Object":[' +
-    '{"Name":"Nachtkasten", "Description":"Das ist ein Nachtkasten!", "Start":"166", "End":"183" },' +
+    '{"Name":"HEMNES Kommode", "Description":"Aus Massivholz, einem strapazierfaehigen, lebendigen Naturmaterial. Mit zusaetzlicher Innenschublade, praktisch fuer kleine Dinge wie Schmuck usw. Leichtgaengige Schubladen mit Ausziehsperre. Kann auch als Ablagetisch verwendet werden.", "Start":"166", "End":"183" },' +
     '{"Stage":1, "Start":"166", "End":"170", "X":"7", "Y":"20", "Width":"10", "Height":"25" },' +
     '{"Stage":2, "Start":"171", "End":"175", "X":"5", "Y":"20", "Width":"10", "Height":"25" },' +
     '{"Stage":3, "Start":"176", "End":"178", "X":"5", "Y":"20", "Width":"10", "Height":"25" },' +
     '{"Stage":4, "Start":"179", "End":"183", "X":"7", "Y":"20", "Width":"10", "Height":"25" }]}';
 
 let text12 = '{"Object":[' +
-    '{"Name":"Nachtkästchen", "Description":"Das ist ein Nachtkästchen!", "Start":"185", "End":"190" },' +
+    '{"Name":"HAUGA", "Description":"Der HAUGA Ablagetisch ist so gestaltet, dass er zu den anderen Produkten der Serie passt. Du kannst ihn mit dem Bettgestell, den Schraenken, Kommoden und Kleiderschraenken kombinieren, um ein harmonisches Gesamtbild zu schaffen.", "Start":"185", "End":"190" },' +
     '{"Stage":1, "Start":"185", "End":"186", "X":"40", "Y":"15", "Width":"15", "Height":"25" },' +
     '{"Stage":2, "Start":"187", "End":"188", "X":"44", "Y":"15", "Width":"15", "Height":"30" },' +
     '{"Stage":3, "Start":"189", "End":"190", "X":"48", "Y":"15", "Width":"10", "Height":"33" }]}';
 
 let text13 = '{"Object":[' +
-    '{"Name":"Bett", "Description":"Das ist ein Bett!", "Start":"185", "End":"195" },' +
+    '{"Name":"TARVA", "Description":"Das robuste massive Kiefernholz ist ein lebendiges Naturmaterial - durch seine Varianten in Maserung, Farbe und Struktur wirkt jedes Stueck einmalig. Durch Oelen, Lasieren oder Lackieren wird die unbehandelte Massivholzoberflaeche noch strapazierfaehiger und pflegeleichter. Unter dem Bett ist jede Menge Platz fuer Bettkaesten. Ideal zum Verstauen von zusaetzlichen Decken, Kissen.", "Start":"185", "End":"195" },' +
     '{"Stage":1, "Start":"185", "End":"186", "X":"3", "Y":"10", "Width":"35", "Height":"40" },' +
     '{"Stage":2, "Start":"187", "End":"188", "X":"4", "Y":"10", "Width":"35", "Height":"40" },' +
     '{"Stage":2, "Start":"189", "End":"190", "X":"5", "Y":"10", "Width":"35", "Height":"35" },' +

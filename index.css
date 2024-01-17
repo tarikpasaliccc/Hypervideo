@@ -19,7 +19,7 @@ body {
     position: absolute;
     border: none !important;
     z-index: 1;
-    background: green;
+    background: transparent;
     width: 100px;
     height: 100px;
     text-align: center;
