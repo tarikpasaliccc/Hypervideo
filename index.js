@@ -2,7 +2,7 @@
 let text = '{"Object":[' +
     '{"Name":"SKARVLO 499e", "Description":"Under the slatted base, which can be lifted, hides a practical storage space. The simple and versatile design coordinates well with other bedroom furniture and fits perfectly in any modern bedroom. If you read or watch TV in bed the soft headboard is comfortable to lean against.", "Start":"0", "End":"25" },' +
     '{"Stage":1, "Start":"0", "End":"4", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
-    '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"25", "Height":"60" },' +
+    '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"25", "Height":"50" },' +
     '{"Stage":3, "Start":"8", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
     '{"Stage":4, "Start":"11", "End":"17", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
     '{"Stage":5, "Start":"18", "End":"20", "X":"23", "Y":"25", "Width":"25", "Height":"15" },'+
@@ -12,11 +12,10 @@ let text2 = '{"Object":[' +
     '{"Name":"LAMP", "Description":"Das ist ein LAMP!", "Start":"7", "End":"24" },' +
     '{"Stage":1, "Start":"7", "End":"8", "X":"30", "Y":"0", "Width":"10", "Height":"10" },' +
     '{"Stage":2, "Start":"9", "End":"10", "X":"25", "Y":"0", "Width":"20", "Height":"25" },' +
-    '{"Stage":2, "Start":"11", "End":"17", "X":"19", "Y":"0", "Width":"20", "Height":"30" },' +
-    '{"Stage":2, "Start":"11", "End":"20", "X":"25", "Y":"0", "Width":"20", "Height":"35" },' +
-    '{"Stage":3, "Start":"18", "End":"20", "X":"35", "Y":"0", "Width":"20", "Height":"30" },' +
-    '{"Stage":3, "Start":"21", "End":"22", "X":"45", "Y":"0", "Width":"20", "Height":"25" },' +
-    '{"Stage":4, "Start":"23", "End":"24", "X":"45", "Y":"0", "Width":"20", "Height":"10" }]}';
+    '{"Stage":3, "Start":"11", "End":"17", "X":"19", "Y":"0", "Width":"20", "Height":"30" },' +
+    '{"Stage":4, "Start":"18", "End":"20", "X":"35", "Y":"0", "Width":"20", "Height":"30" },' +
+    '{"Stage":5, "Start":"21", "End":"22", "X":"45", "Y":"0", "Width":"20", "Height":"25" },' +
+    '{"Stage":6, "Start":"23", "End":"24", "X":"45", "Y":"0", "Width":"20", "Height":"10" }]}';
 
 let text3 = '{"Object":[' +
     '{"Name":"Kinder Bett", "Description":"Das ist ein Kinder Bett!", "Start":"28", "End":"54" },' +
@@ -67,7 +66,6 @@ let text8 = '{"Object":[' +
     '{"Stage":3, "Start":"154", "End":"155", "X":"29", "Y":"20", "Width":"20", "Height":"25" },' +
     '{"Stage":4, "Start":"156", "End":"157", "X":"30", "Y":"22", "Width":"20", "Height":"20" }]}';
 
-
 let text9 = '{"Object":[' +
     '{"Name":"Lampe", "Description":"Das ist eine Lampe!", "Start":"158", "End":"165" },' +
     '{"Stage":1, "Start":"158", "End":"159", "X":"40", "Y":"10", "Width":"20", "Height":"25" },' +
@@ -94,33 +92,33 @@ let text12 = '{"Object":[' +
     '{"Stage":2, "Start":"187", "End":"188", "X":"44", "Y":"15", "Width":"15", "Height":"30" },' +
     '{"Stage":3, "Start":"189", "End":"190", "X":"48", "Y":"15", "Width":"10", "Height":"33" }]}';
 
-
 let text13 = '{"Object":[' +
     '{"Name":"Bett", "Description":"Das ist ein Bett!", "Start":"185", "End":"195" },' +
     '{"Stage":1, "Start":"185", "End":"186", "X":"3", "Y":"10", "Width":"35", "Height":"40" },' +
     '{"Stage":2, "Start":"187", "End":"188", "X":"4", "Y":"10", "Width":"35", "Height":"40" },' +
-    '{"Stage":2, "Start":"189", "End":"190", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":2, "Start":"191", "End":"192", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":3, "Start":"193", "End":"194", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
+    '{"Stage":2, "Start":"189", "End":"190", "X":"5", "Y":"10", "Width":"35", "Height":"35" },' +
+    '{"Stage":2, "Start":"191", "End":"192", "X":"5", "Y":"1ß", "Width":"40", "Height":"35" },' +
+    '{"Stage":3, "Start":"193", "End":"194", "X":"5", "Y":"10", "Width":"40", "Height":"35" }]}';
 
 let text14 = '{"Object":[' +
-    '{"Name":"Bild", "Description":"Das ist ein Bild!", "Start":"196", "End":"201" },' +
-    '{"Stage":1, "Start":"196", "End":"199", "X":"199", "Y":"10", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"200", "End":"201", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+    '{"Name":"Bild", "Description":"Das ist ein Bild!", "Start":"196", "End":"202" },' +
+    '{"Stage":1, "Start":"196", "End":"199", "X":"30", "Y":"5", "Width":"10", "Height":"20" },' +
+    '{"Stage":2, "Start":"200", "End":"202", "X":"30", "Y":"1", "Width":"10", "Height":"20" }]}';
 
 let text15 = '{"Object":[' +
     '{"Name":"Kissen", "Description":"Das ist ein Kissen!", "Start":"204", "End":"213" },' +
-    '{"Stage":1, "Start":"204", "End":"205", "X":"186", "Y":"10", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"206", "End":"207", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":2, "Start":"208", "End":"209", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":2, "Start":"210", "End":"211", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":3, "Start":"212", "End":"213", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
+    '{"Stage":1, "Start":"204", "End":"205", "X":"25", "Y":"20", "Width":"20", "Height":"20" },' +
+    '{"Stage":2, "Start":"206", "End":"207", "X":"27", "Y":"20", "Width":"20", "Height":"20" },' +
+    '{"Stage":2, "Start":"208", "End":"209", "X":"29", "Y":"18", "Width":"20", "Height":"20" },' +
+    '{"Stage":2, "Start":"210", "End":"211", "X":"31", "Y":"16", "Width":"20", "Height":"20" },' +
+    '{"Stage":3, "Start":"212", "End":"213", "X":"33", "Y":"14", "Width":"20", "Height":"20" }]}';
 
 let text16 = '{"Object":[' +
     '{"Name":"Wandregal", "Description":"Das ist ein Wandregal!", "Start":"230", "End":"236" },' +
-    '{"Stage":1, "Start":"230", "End":"231", "X":"186", "Y":"10", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"232", "End":"233", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":2, "Start":"234", "End":"235", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+    '{"Stage":1, "Start":"230", "End":"231", "X":"1", "Y":"1", "Width":"40", "Height":"25" },' +
+    '{"Stage":2, "Start":"232", "End":"233", "X":"1", "Y":"1", "Width":"45", "Height":"30" },' +
+    '{"Stage":2, "Start":"234", "End":"235", "X":"1", "Y":"1", "Width":"45", "Height":"30" }]}';
+
 
 const obj = JSON.parse(text);
 const obj2 = JSON.parse(text2);
