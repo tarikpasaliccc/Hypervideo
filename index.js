@@ -9,7 +9,7 @@ let text = '{"Object":[' +
     '{"Stage":6, "Start":"21", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
 
 let text2 = '{"Object":[' +
-    '{"Name":"DEJSA", "Description":"Wenn du die Beleuchtung je nach Stimmung und Bedarf verändern willst, ist das TRÅDFRI Set mit Fernbedienung eine gute Wahl. Damit kannst du das Licht drahtlos dimmen und zwischen warmem und kaltem Licht umschalten. Zubehör wird separat verkauft. Die Glasschirme sind von talentierten Kunsthandwerkern mundgeblasen. Gute Allgemeinbeleuchtung. Designer: C Halskov/H Dalsgaard", "Start":"7", "End":"25" },' +
+    '{"Name":"DEJSA", "Description":"Wenn du die Beleuchtung je nach Stimmung und Bedarf veraendern willst, ist das DEJSA Set mit Fernbedienung eine gute Wahl. Damit kannst du das Licht drahtlos dimmen und zwischen warmem und kaltem Licht umschalten. Zubehoer wird separat verkauft. Die Glasschirme sind von talentierten Kunsthandwerkern mundgeblasen. Gute Allgemeinbeleuchtung.", "Start":"7", "End":"25" },' +
     '{"Stage":1, "Start":"7", "End":"8", "X":"30", "Y":"0", "Width":"10", "Height":"10" },' +
     '{"Stage":2, "Start":"9", "End":"10", "X":"25", "Y":"0", "Width":"20", "Height":"25" },' +
     '{"Stage":3, "Start":"11", "End":"17", "X":"19", "Y":"0", "Width":"20", "Height":"30" },' +
