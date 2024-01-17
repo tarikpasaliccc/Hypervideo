@@ -1,40 +1,59 @@
 //JSON shenanigans
 let text = '{"Object":[' +
     '{"Name":"SKARVLO 499e", "Description":"Under the slatted base, which can be lifted, hides a practical storage space. The simple and versatile design coordinates well with other bedroom furniture and fits perfectly in any modern bedroom. If you read or watch TV in bed the soft headboard is comfortable to lean against.", "Start":"0", "End":"25" },' +
-    '{"Stage":1, "Start":"0", "End":"4", "X":"20", "Y":"5", "Width":"35", "Height":"30" },' +
-    '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"30", "Height":"40" },' +
-    '{"Stage":3, "Start":"8", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"20" },' +
+    '{"Stage":1, "Start":"0", "End":"4", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
+    '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"25", "Height":"50" },' +
+    '{"Stage":3, "Start":"8", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
     '{"Stage":4, "Start":"11", "End":"17", "X":"15", "Y":"25", "Width":"25", "Height":"15" },' +
-    '{"Stage":5, "Start":"18", "End":"20", "X":"23", "Y":"25", "Width":"20", "Height":"15" },'+
-    '{"Stage":6, "Start":"21", "End":"25", "X":"35", "Y":"25", "Width":"22", "Height":"15" }]}';
+    '{"Stage":5, "Start":"18", "End":"20", "X":"23", "Y":"25", "Width":"25", "Height":"15" },'+
+    '{"Stage":6, "Start":"21", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
 
 let text2 = '{"Object":[' +
     '{"Name":"DEJSA", "Description":"Wenn du die Beleuchtung je nach Stimmung und Bedarf verändern willst, ist das TRÅDFRI Set mit Fernbedienung eine gute Wahl. Damit kannst du das Licht drahtlos dimmen und zwischen warmem und kaltem Licht umschalten. Zubehör wird separat verkauft. Die Glasschirme sind von talentierten Kunsthandwerkern mundgeblasen. Gute Allgemeinbeleuchtung. Designer: C Halskov/H Dalsgaard", "Start":"7", "End":"25" },' +
-    '{"Stage":1, "Start":"7", "End":"10", "X":"30", "Y":"0", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"11", "End":"17", "X":"25", "Y":"0", "Width":"20", "Height":"25" },' +
-    '{"Stage":3, "Start":"18", "End":"20", "X":"35", "Y":"0", "Width":"20", "Height":"25" },' +
-    '{"Stage":3, "Start":"21", "End":"22", "X":"45", "Y":"0", "Width":"12", "Height":"25" },' +
-    '{"Stage":4, "Start":"23", "End":"25", "X":"45", "Y":"0", "Width":"12", "Height":"10" }]}';
+    '{"Stage":1, "Start":"7", "End":"8", "X":"30", "Y":"0", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"9", "End":"10", "X":"25", "Y":"0", "Width":"20", "Height":"25" },' +
+    '{"Stage":3, "Start":"11", "End":"17", "X":"19", "Y":"0", "Width":"20", "Height":"30" },' +
+    '{"Stage":4, "Start":"18", "End":"20", "X":"35", "Y":"0", "Width":"20", "Height":"30" },' +
+    '{"Stage":5, "Start":"21", "End":"22", "X":"45", "Y":"0", "Width":"20", "Height":"25" },' +
+    '{"Stage":6, "Start":"23", "End":"24", "X":"45", "Y":"0", "Width":"20", "Height":"10" }]}';
 
 let text3 = '{"Object":[' +
     '{"Name":"SONGESAND", "Description":"Dieses klassische Bettgestell wird mit den Textilien und den Schlafzimmermoebeln deiner Wahl grossartig zur Wirkung kommen. Besonders harmonisch ist eine Kombination mit weiteren Produkten aus der SONGESAND Serie.", "Start":"28", "End":"54" },' +
-    '{"Stage":29, "Start":"28", "End":"30", "X":"15", "Y":"25", "Width":"35", "Height":"15" },' +
-    '{"Stage":200, "Start":"31", "End":"33", "X":"15", "Y":"20", "Width":"35", "Height":"22" },' +
-    '{"Stage":200, "Start":"34", "End":"36", "X":"15", "Y":"15", "Width":"35", "Height":"33" },' +
-    '{"Stage":200, "Start":"40", "End":"46", "X":"15", "Y":"5", "Width":"35", "Height":"45" },' +
-    '{"Stage":200, "Start":"47", "End":"49", "X":"5", "Y":"5", "Width":"35", "Height":"45" },'+
-    '{"Stage":200, "Start":"50", "End":"53", "X":"0", "Y":"5", "Width":"15", "Height":"45" }]}';
+    '{"Stage":29, "Start":"28", "End":"30", "X":"15", "Y":"25", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"31", "End":"33", "X":"15", "Y":"20", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"34", "End":"36", "X":"15", "Y":"15", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"40", "End":"46", "X":"15", "Y":"5", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"47", "End":"49", "X":"5", "Y":"5", "Width":"35", "Height":"60" },'+
+    '{"Stage":200, "Start":"50", "End":"70", "X":"0", "Y":"5", "Width":"15", "Height":"55" }]}';
 
 let text4 = '{"Object":[' +
     '{"Name":"PLUTTIS", "Description": "Grosse und deutliche Zahlen machen das Zeitablesen einfach. Kein stoerendes Tickgeraeusch, da die Uhr ueber ein Quarzuhrwerk verfuegt. Dank Quarzuhrwerk besonders praezise.", "Start":"53", "End":"78" },' +
     '{"Stage":29, "Start":"53", "End":"54", "X":"50", "Y":"0", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"55", "End":"56", "X":"45", "Y":"0", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"57", "End":"58", "X":"35", "Y":"3", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"59", "End":"60", "X":"25", "Y":"5", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"61", "End":"62", "X":"25", "Y":"7", "Width":"8", "Height":"15" },'+
-    '{"Stage":200, "Start":"62", "End":"64", "X":"20", "Y":"9", "Width":"8", "Height":"15" },'+
-    '{"Stage":200, "Start":"65", "End":"70", "X":"20", "Y":"15", "Width":"8", "Height":"15" },'+
-    '{"Stage":200, "Start":"71", "End":"78", "X":"17", "Y":"20", "Width":"8", "Height":"15" }]}';
+    '{"Stage":200, "Start":"55", "End":"55", "X":"45", "Y":"0", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"56", "End":"58", "X":"40", "Y":"1", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"59", "End":"60", "X":"30", "Y":"5", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"61", "End":"62", "X":"25", "Y":"10", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"62", "End":"64", "X":"20", "Y":"15", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"65", "End":"69", "X":"18", "Y":"18", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"70", "End":"73", "X":"18", "Y":"23", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"74", "End":"78", "X":"18", "Y":"25", "Width":"8", "Height":"15" }]}';
+
+
+let text5 = '{"Object":[' +
+    '{"Name":"Couch", "Description":"Das ist ein Coach!", "Start":"79", "End":"86" },' +
+    '{"Stage":1, "Start":"79", "End":"83", "X":"15", "Y":"25", "Width":"35", "Height":"60" },' +
+    '{"Stage":2, "Start":"84", "End":"86", "X":"12", "Y":"15", "Width":"35", "Height":"30" }]}';
+
+let text6 = '{"Object":[' +
+    '{"Name":"Kinder Bett", "Description":"Das ist ein Kinder Bett!", "Start":"28", "End":"54" },' +
+    '{"Stage":29, "Start":"28", "End":"30", "X":"15", "Y":"25", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"31", "End":"33", "X":"15", "Y":"20", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"34", "End":"36", "X":"15", "Y":"15", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"40", "End":"46", "X":"15", "Y":"5", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"47", "End":"49", "X":"5", "Y":"5", "Width":"35", "Height":"60" },'+
+    '{"Stage":200, "Start":"50", "End":"70", "X":"0", "Y":"5", "Width":"15", "Height":"55" }]}';
+
+
 
 let text7 = '{"Object":[' +
     '{"Name":"SOEDERHAMN", "Description":"In SOEDERHAMN Polstermoebeln mit niedriger, tiefer, weicher Sitzflaeche sorgen lose Rueckenkissen fuer zusaetzlichen Halt. Leichtes, luftiges Design mit hohen Beinen und schlanken Linien, trotzdem mit grossem Komfort dank des elastischen Geflechts im Boden und des hochelastischen Schaums in den Sitzpolstern. Die einzelnen Elemente des Sofas koennen frei stehend genutzt oder vielseitig zu einer Groesse und Form kombiniert werden, die ideal in dein Zuhause passt.", "Start":"128", "End":"149" },' +
@@ -78,33 +97,35 @@ let text13 = '{"Object":[' +
     '{"Stage":1, "Start":"185", "End":"186", "X":"3", "Y":"10", "Width":"35", "Height":"40" },' +
     '{"Stage":2, "Start":"187", "End":"188", "X":"4", "Y":"10", "Width":"35", "Height":"40" },' +
     '{"Stage":2, "Start":"189", "End":"190", "X":"5", "Y":"10", "Width":"35", "Height":"35" },' +
-    '{"Stage":2, "Start":"191", "End":"192", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":3, "Start":"193", "End":"194", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
+    '{"Stage":2, "Start":"191", "End":"192", "X":"5", "Y":"1ß", "Width":"40", "Height":"35" },' +
+    '{"Stage":3, "Start":"193", "End":"194", "X":"5", "Y":"10", "Width":"40", "Height":"35" }]}';
 
 let text14 = '{"Object":[' +
-    '{"Name":"Bild", "Description":"Das ist ein Bild!", "Start":"196", "End":"201" },' +
-    '{"Stage":1, "Start":"196", "End":"199", "X":"199", "Y":"10", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"200", "End":"201", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+    '{"Name":"Bild", "Description":"Das ist ein Bild!", "Start":"196", "End":"202" },' +
+    '{"Stage":1, "Start":"196", "End":"199", "X":"30", "Y":"5", "Width":"10", "Height":"20" },' +
+    '{"Stage":2, "Start":"200", "End":"202", "X":"30", "Y":"1", "Width":"10", "Height":"20" }]}';
 
 let text15 = '{"Object":[' +
     '{"Name":"Kissen", "Description":"Das ist ein Kissen!", "Start":"204", "End":"213" },' +
-    '{"Stage":1, "Start":"204", "End":"205", "X":"186", "Y":"10", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"206", "End":"207", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":2, "Start":"208", "End":"209", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":2, "Start":"210", "End":"211", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":3, "Start":"212", "End":"213", "X":"10", "Y":"10", "Width":"10", "Height":"10" }]}';
+    '{"Stage":1, "Start":"204", "End":"205", "X":"25", "Y":"20", "Width":"20", "Height":"20" },' +
+    '{"Stage":2, "Start":"206", "End":"207", "X":"27", "Y":"20", "Width":"20", "Height":"20" },' +
+    '{"Stage":2, "Start":"208", "End":"209", "X":"29", "Y":"18", "Width":"20", "Height":"20" },' +
+    '{"Stage":2, "Start":"210", "End":"211", "X":"31", "Y":"16", "Width":"20", "Height":"20" },' +
+    '{"Stage":3, "Start":"212", "End":"213", "X":"33", "Y":"14", "Width":"20", "Height":"20" }]}';
 
 let text16 = '{"Object":[' +
     '{"Name":"Wandregal", "Description":"Das ist ein Wandregal!", "Start":"230", "End":"236" },' +
-    '{"Stage":1, "Start":"230", "End":"231", "X":"186", "Y":"10", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"232", "End":"233", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
-    '{"Stage":2, "Start":"234", "End":"235", "X":"20", "Y":"20", "Width":"25", "Height":"30" }]}';
+    '{"Stage":1, "Start":"230", "End":"231", "X":"1", "Y":"1", "Width":"40", "Height":"25" },' +
+    '{"Stage":2, "Start":"232", "End":"233", "X":"1", "Y":"1", "Width":"45", "Height":"30" },' +
+    '{"Stage":2, "Start":"234", "End":"235", "X":"1", "Y":"1", "Width":"45", "Height":"30" }]}';
 
 
 const obj = JSON.parse(text);
 const obj2 = JSON.parse(text2);
 const obj3 = JSON.parse(text3);
 const obj4 = JSON.parse(text4);
+const obj5 = JSON.parse(text5);
+const obj6 = JSON.parse(text6);
 const obj7 = JSON.parse(text7);
 const obj8 = JSON.parse(text8);
 const obj9 = JSON.parse(text9)
@@ -115,12 +136,15 @@ const obj13 = JSON.parse(text13);
 const obj14 = JSON.parse(text14);
 const obj15 = JSON.parse(text15);
 const obj16 = JSON.parse(text16);
-const objects = [obj, obj2, obj3, obj4, obj7, obj8, obj9, obj10, obj11, obj12, obj13, obj14,obj15, obj16];
+const objects = [obj, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9, obj10, obj11, obj12, obj13, obj14,obj15, obj16];
 
 // Not showing Buttons from the get-go
 document.getElementById("box1").style.display = "none";
 document.getElementById("box2").style.display = "none";
 document.getElementById("box3").style.display = "none";
+document.getElementById("box4").style.display = "none";
+document.getElementById("box5").style.display = "none";
+document.getElementById("box6").style.display = "none";
 document.getElementById("box7").style.display = "none";
 document.getElementById("box8").style.display = "none";
 document.getElementById("box9").style.display = "none";
