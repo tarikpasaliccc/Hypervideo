@@ -9,12 +9,14 @@ let text = '{"Object":[' +
     '{"Stage":6, "Start":"21", "End":"25", "X":"35", "Y":"25", "Width":"25", "Height":"15" }]}';
 
 let text2 = '{"Object":[' +
-    '{"Name":"LAMP", "Description":"Das ist ein LAMP!", "Start":"7", "End":"25" },' +
-    '{"Stage":1, "Start":"7", "End":"10", "X":"30", "Y":"0", "Width":"10", "Height":"10" },' +
-    '{"Stage":2, "Start":"11", "End":"17", "X":"25", "Y":"0", "Width":"20", "Height":"25" },' +
-    '{"Stage":3, "Start":"18", "End":"20", "X":"35", "Y":"0", "Width":"20", "Height":"25" },' +
+    '{"Name":"LAMP", "Description":"Das ist ein LAMP!", "Start":"7", "End":"24" },' +
+    '{"Stage":1, "Start":"7", "End":"8", "X":"30", "Y":"0", "Width":"10", "Height":"10" },' +
+    '{"Stage":2, "Start":"9", "End":"10", "X":"25", "Y":"0", "Width":"20", "Height":"25" },' +
+    '{"Stage":2, "Start":"11", "End":"17", "X":"19", "Y":"0", "Width":"20", "Height":"30" },' +
+    '{"Stage":2, "Start":"11", "End":"20", "X":"25", "Y":"0", "Width":"20", "Height":"35" },' +
+    '{"Stage":3, "Start":"18", "End":"20", "X":"35", "Y":"0", "Width":"20", "Height":"30" },' +
     '{"Stage":3, "Start":"21", "End":"22", "X":"45", "Y":"0", "Width":"20", "Height":"25" },' +
-    '{"Stage":4, "Start":"23", "End":"25", "X":"45", "Y":"0", "Width":"20", "Height":"10" }]}';
+    '{"Stage":4, "Start":"23", "End":"24", "X":"45", "Y":"0", "Width":"20", "Height":"10" }]}';
 
 let text3 = '{"Object":[' +
     '{"Name":"Kinder Bett", "Description":"Das ist ein Kinder Bett!", "Start":"28", "End":"54" },' +
@@ -23,18 +25,36 @@ let text3 = '{"Object":[' +
     '{"Stage":200, "Start":"34", "End":"36", "X":"15", "Y":"15", "Width":"35", "Height":"60" },' +
     '{"Stage":200, "Start":"40", "End":"46", "X":"15", "Y":"5", "Width":"35", "Height":"60" },' +
     '{"Stage":200, "Start":"47", "End":"49", "X":"5", "Y":"5", "Width":"35", "Height":"60" },'+
-    '{"Stage":200, "Start":"50", "End":"53", "X":"0", "Y":"5", "Width":"15", "Height":"60" }]}';
+    '{"Stage":200, "Start":"50", "End":"70", "X":"0", "Y":"5", "Width":"15", "Height":"55" }]}';
 
 let text4 = '{"Object":[' +
     '{"Name":"Uhr", "Description":"Das ist ein Uhr!", "Start":"53", "End":"78" },' +
     '{"Stage":29, "Start":"53", "End":"54", "X":"50", "Y":"0", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"55", "End":"56", "X":"45", "Y":"0", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"57", "End":"58", "X":"40", "Y":"15", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"59", "End":"60", "X":"15", "Y":"5", "Width":"8", "Height":"15" },' +
-    '{"Stage":200, "Start":"61", "End":"62", "X":"5", "Y":"5", "Width":"8", "Height":"15" },'+
-    '{"Stage":200, "Start":"62", "End":"64", "X":"5", "Y":"5", "Width":"8", "Height":"15" },'+
-    '{"Stage":200, "Start":"65", "End":"70", "X":"5", "Y":"5", "Width":"8", "Height":"15" },'+
-    '{"Stage":200, "Start":"71", "End":"78", "X":"0", "Y":"5", "Width":"8", "Height":"15" }]}';
+    '{"Stage":200, "Start":"55", "End":"55", "X":"45", "Y":"0", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"56", "End":"58", "X":"40", "Y":"1", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"59", "End":"60", "X":"30", "Y":"5", "Width":"8", "Height":"15" },' +
+    '{"Stage":200, "Start":"61", "End":"62", "X":"25", "Y":"10", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"62", "End":"64", "X":"20", "Y":"15", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"65", "End":"69", "X":"18", "Y":"18", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"70", "End":"73", "X":"18", "Y":"23", "Width":"8", "Height":"15" },'+
+    '{"Stage":200, "Start":"74", "End":"78", "X":"18", "Y":"25", "Width":"8", "Height":"15" }]}';
+
+
+let text5 = '{"Object":[' +
+    '{"Name":"Couch", "Description":"Das ist ein Coach!", "Start":"79", "End":"86" },' +
+    '{"Stage":1, "Start":"79", "End":"83", "X":"15", "Y":"25", "Width":"35", "Height":"60" },' +
+    '{"Stage":2, "Start":"84", "End":"86", "X":"12", "Y":"15", "Width":"35", "Height":"30" }]}';
+
+let text6 = '{"Object":[' +
+    '{"Name":"Kinder Bett", "Description":"Das ist ein Kinder Bett!", "Start":"28", "End":"54" },' +
+    '{"Stage":29, "Start":"28", "End":"30", "X":"15", "Y":"25", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"31", "End":"33", "X":"15", "Y":"20", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"34", "End":"36", "X":"15", "Y":"15", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"40", "End":"46", "X":"15", "Y":"5", "Width":"35", "Height":"60" },' +
+    '{"Stage":200, "Start":"47", "End":"49", "X":"5", "Y":"5", "Width":"35", "Height":"60" },'+
+    '{"Stage":200, "Start":"50", "End":"70", "X":"0", "Y":"5", "Width":"15", "Height":"55" }]}';
+
+
 
 let text7 = '{"Object":[' +
     '{"Name":"Couch", "Description":"Das ist ein Coach!", "Start":"128", "End":"149" },' +
@@ -106,6 +126,8 @@ const obj = JSON.parse(text);
 const obj2 = JSON.parse(text2);
 const obj3 = JSON.parse(text3);
 const obj4 = JSON.parse(text4);
+const obj5 = JSON.parse(text5);
+const obj6 = JSON.parse(text6);
 const obj7 = JSON.parse(text7);
 const obj8 = JSON.parse(text8);
 const obj9 = JSON.parse(text9)
@@ -116,12 +138,15 @@ const obj13 = JSON.parse(text13);
 const obj14 = JSON.parse(text14);
 const obj15 = JSON.parse(text15);
 const obj16 = JSON.parse(text16);
-const objects = [obj, obj2, obj3, obj4, obj7, obj8, obj9, obj10, obj11, obj12, obj13, obj14,obj15, obj16];
+const objects = [obj, obj2, obj3, obj4, obj5, obj6, obj7, obj8, obj9, obj10, obj11, obj12, obj13, obj14,obj15, obj16];
 
 // Not showing Buttons from the get-go
 document.getElementById("box1").style.display = "none";
 document.getElementById("box2").style.display = "none";
 document.getElementById("box3").style.display = "none";
+document.getElementById("box4").style.display = "none";
+document.getElementById("box5").style.display = "none";
+document.getElementById("box6").style.display = "none";
 document.getElementById("box7").style.display = "none";
 document.getElementById("box8").style.display = "none";
 document.getElementById("box9").style.display = "none";
