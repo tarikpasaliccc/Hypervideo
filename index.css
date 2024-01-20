@@ -4,11 +4,27 @@ body {
 }
 
 .header {
-    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding: 10px;
     text-align: center;
-    background: #fbda0c;
-    color: #0057ad;
-    font-size: 30px;
+    background: black;
+    color: white;
+    font-size: 15px;
+}
+
+/* Add this CSS for styling the header text and icon */
+.header-text {
+    display: flex;
+    align-items: center;
+}
+
+.header-icon {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-left: 20px;
 }
 
 .video {
@@ -33,11 +49,19 @@ body {
 }
 
 .textbox {
-    margin-left: 20px;
+    margin-left: 30px;
+    margin-right: 30px;
     width: 40%;
 }
 
 .content {
     display: flex;
     align-items: flex-start;
+}
+.content p{text-align: justify;
+    margin: 10px 0;}
+.content h1,
+.content h2 {
+    text-align: center;
+    margin: 30px 0;
 }

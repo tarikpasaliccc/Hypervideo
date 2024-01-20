@@ -4,10 +4,14 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <title>Hypervideo</title>
+	<link rel="icon" type="image/png" href="img.png">
 </head>
 <body>
     <div class="header">
-        <h1>Hypervideo</h1>
+		<h1>
+			<img src="img.png" alt="Icon" class="header-icon"> <!-- Add your image here -->
+			Hypervideo
+		</h1>
     </div>
 <!-- Moveable Button -->
     <button class=button id="box1" onClick="showText(1)"></button>
@@ -26,14 +30,22 @@
 	<button class=button id="box14" onClick="showText(14)"></button>
 	<button class=button id="box15" onClick="showText(15)"></button>
 	<button class=button id="box16" onClick="showText(16)"></button>
+
 	<div class="content">
 		<video width="60%" height="60%" controls>
 		  <source src="video.mp4" type="video/mp4">
 		  Your browser does not support the video tag.
 		</video>
 		<div class="textbox">
+			<div class="description">
+				<h1 class="picture"><img src="img.png" alt="Icon" class="header-icon"> <!-- Add your image here -->
+					Welcome to Hypervideo!</h1>
+				<p> Immerse yourself in an interactive experience by clicking on items featured in the video. Each item comes with a detailed description to provide you with valuable information. </p>
+				<p>By clicking on an item, you not only get a comprehensive description but also a direct link to the website where you can make a purchase. We believe in making your shopping experience seamless and enjoyable, allowing you to easily find and acquire the items that catch your interest.			</p>
+			</div>
 			<h2 id="objectName"></h2>
 			<p id="objectDescription"></p>
+			<a id="objectLink" target="_blank"></a>
 		</div>
 	</div>
     <script src="index.js"></script>
