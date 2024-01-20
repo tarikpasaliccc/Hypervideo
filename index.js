@@ -1,6 +1,6 @@
 //JSON shenanigans
 let text = '{"Object":[' +
-    '{"Name":"SKARVLO", "Description":"Under the slatted base, which can be lifted, hides a practical storage space. The simple and versatile design coordinates well with other bedroom furniture and fits perfectly in any modern bedroom. If you read or watch TV in bed the soft headboard is comfortable to lean against.","IkeaLink":"https://www.ikea.com/at/en/p/skarvlo-ottoman-bed-grey-70556086/", "Start":"0", "End":"25" },' +
+    '{"Name":"SKARVLO", "Description":"Under the slatted base, which can be lifted, hides a practical storage space. The simple and versatile design coordinates well with other bedroom furniture and fits perfectly in any modern bedroom. If you read or watch TV in bed, the soft headboard is comfortable to lean against.","IkeaLink":"https://www.ikea.com/at/en/p/skarvlo-ottoman-bed-grey-70556086/", "Start":"0", "End":"25" },' +
     '{"Stage":1, "Start":"0", "End":"4", "X":"20", "Y":"5", "Width":"35", "Height":"60" },' +
     '{"Stage":2, "Start":"5", "End":"7", "X":"20", "Y":"10", "Width":"25", "Height":"50" },' +
     '{"Stage":3, "Start":"8", "End":"10", "X":"20", "Y":"20", "Width":"25", "Height":"30" },' +
@@ -27,7 +27,7 @@ let text3 = '{"Object":[' +
     '{"Stage":200, "Start":"50", "End":"70", "X":"0", "Y":"5", "Width":"15", "Height":"55" }]}';
 
 let text4 = '{"Object":[' +
-    '{"Name":"PLUTTIS", "Description": "Grosse und deutliche Zahlen machen das Zeitablesen einfach. Kein stoerendes Tickgeraeusch, da die Uhr ueber ein Quarzuhrwerk verfuegt. Dank Quarzuhrwerk besonders praezise.","IkeaLink":"https://www.ikea.com/at/en/p/pluttis-wall-clock-low-voltage-red-30540851/#content", "Start":"53", "End":"78" },' +
+    '{"Name":"PLUTTIS", "Description": "Big and clear numbers make it easy to see what time it is. No disturbing ticking sounds since the clock has a silent quartz movement. Accurate at keeping time as it is fitted with a quartz movement.","IkeaLink":"https://www.ikea.com/at/en/p/pluttis-wall-clock-low-voltage-red-30540851/#content", "Start":"53", "End":"78" },' +
     '{"Stage":29, "Start":"53", "End":"54", "X":"50", "Y":"0", "Width":"8", "Height":"15" },' +
     '{"Stage":200, "Start":"55", "End":"55", "X":"45", "Y":"0", "Width":"8", "Height":"15" },' +
     '{"Stage":200, "Start":"56", "End":"58", "X":"40", "Y":"1", "Width":"8", "Height":"15" },' +
@@ -56,11 +56,11 @@ let text6 = '{"Object":[' +
 
 
 let text7 = '{"Object":[' +
-    '{"Name":"SOEDERHAMN", "Description":"In SOEDERHAMN Polstermoebeln mit niedriger, tiefer, weicher Sitzflaeche sorgen lose Rueckenkissen fuer zusaetzlichen Halt. Leichtes, luftiges Design mit hohen Beinen und schlanken Linien, trotzdem mit grossem Komfort dank des elastischen Geflechts im Boden und des hochelastischen Schaums in den Sitzpolstern. Die einzelnen Elemente des Sofas koennen frei stehend genutzt oder vielseitig zu einer Groesse und Form kombiniert werden, die ideal in dein Zuhause passt.","IkeaLink":"https://www.ikea.com/at/en/p/soederhamn-3-seat-section-hillared-dark-blue-s09430557/#content", "Start":"128", "End":"149" },' +
+    '{"Name":"SOEDERHAMN", "Description":"SOEDERHAMN seating series allows you to sit deeply, low and softly with the loose back cushions for extra support. Light, airy design with high legs and slim lines, yet still a great comfort thanks to the elastic weave in the bottom and high resilience foam in the seat cushions. The sofa\'s sections can be used freestanding or combined in different ways to get a size and shape that suits you and your home. If you need a larger sofa, you can add a section or two to your existing combination. You can create your own perfect combination with the planning tool. Assemble, take apart and put together again until it’s just right. The high legs make it easy to clean the floor under the furniture. This cover is made of the fabric Viarp in cotton and polyester. It has a clear texture and a mélange effect that makes it less sensitive to stains. The cover is easy to keep clean since it can be machine washed and is easy to take off and put on again. 10-year guarantee","IkeaLink":"https://www.ikea.com/at/en/p/soederhamn-3-seat-section-hillared-dark-blue-s09430557/#content", "Start":"128", "End":"149" },' +
     '{"Stage":1, "Start":"128", "End":"147", "X":"12", "Y":"15", "Width":"35", "Height":"30" }]}';
 
 let text8 = '{"Object":[' +
-    '{"Name":"EKET", "Description":"Durch Kombination von offener und geschlossener Aufbewahrung laesst sich Dekoratives und Nuetzliches nach Bedarf zeigen oder verbergen. Eine niedrige Kombination bietet praktische Aufbewahrung z.B. unter einem Fenster. Dank des integrierten Druckoeffners laesst sich die Tuer mit einem leichten Druck oeffnen.","IkeaLink":"https://www.ikea.com/at/en/p/eket-cabinet-combination-with-legs-white-wood-s79388003/", "Start":"150", "End":"157" },' +
+    '{"Name":"EKET", "Description":"By combining open and closed storage, decorative and useful items can be displayed or hidden as needed. A low combination provides practical storage, for example, under a window. Thanks to the integrated push-opener, the door can be opened with a gentle push.","IkeaLink":"https://www.ikea.com/at/en/p/eket-cabinet-combination-with-legs-white-wood-s79388003/", "Start":"150", "End":"157" },' +
     '{"Stage":1, "Start":"150", "End":"151", "X":"35", "Y":"10", "Width":"20", "Height":"40" },' +
     '{"Stage":2, "Start":"152", "End":"153", "X":"31", "Y":"15", "Width":"20", "Height":"35" },' +
     '{"Stage":3, "Start":"154", "End":"155", "X":"29", "Y":"20", "Width":"20", "Height":"25" },' +
@@ -74,13 +74,13 @@ let text9 = '{"Object":[' +
     '{"Stage":3, "Start":"164", "End":"165", "X":"40", "Y":"15", "Width":"20", "Height":"25" }]}';
 
 let text10 = '{"Object":[' +
-    '{"Name":"HEMNES", "Description":"Mit diesem Tagesbett bereitest du im Handumdrehen Platz fuer Uebernachtungsgaeste. Einfach die Liegeflaeche herausziehen - voila! Ein bequemes Doppelbett! In den geraeumigen Schubkaesten ist viel Platz fuer Decken, Kissen, Bettwaesche oder anderes, was du gern griffbereit, aber ausser Sichtweite unterbringst. Der Bettrahmen ist lackiert, damit er besonders pflegeleicht wird. Durch seine wohnliche Hoehe wirkt das Bett wie eine gemuetliche Koje.","IkeaLink":"https://www.ikea.com/at/en/p/hemnes-day-bed-frame-with-3-drawers-white-90349326/" ,"Start":"166", "End":"183" },' +
+    '{"Name":"HEMNES", "Description":"With this day bed, you can quickly create space for overnight guests. Simply pull out the sleeping surface - voila! A comfortable double bed! In the spacious drawers, there is plenty of space for blankets, pillows, bedding, or other items you want within reach but out of sight. The bed frame is painted to make it particularly easy to care for. Due to its homely height, the bed looks like a cozy nook.","IkeaLink":"https://www.ikea.com/at/en/p/hemnes-day-bed-frame-with-3-drawers-white-90349326/" ,"Start":"166", "End":"183" },' +
     '{"Stage":1, "Start":"166", "End":"170", "X":"20", "Y":"15", "Width":"35", "Height":"33" },' +
     '{"Stage":2, "Start":"171", "End":"174", "X":"20", "Y":"15", "Width":"35", "Height":"33" },' +
     '{"Stage":3, "Start":"175", "End":"184", "X":"20", "Y":"15", "Width":"38", "Height":"33" }]}';
 
 let text11 = '{"Object":[' +
-    '{"Name":"HEMNES Kommode", "Description":"Aus Massivholz, einem strapazierfaehigen, lebendigen Naturmaterial. Mit zusaetzlicher Innenschublade, praktisch fuer kleine Dinge wie Schmuck usw. Leichtgaengige Schubladen mit Ausziehsperre. Kann auch als Ablagetisch verwendet werden.","IkeaLink":"https://www.ikea.com/at/en/p/hemnes-chest-of-2-drawers-white-stain-80242627/" ,"Start":"166", "End":"183" },' +
+    '{"Name":"HEMNES Kommode", "Description":"Made of solid wood, a durable, lively natural material. With an additional inner drawer, practical for small things like jewelry, etc. Smooth drawers with pull-out stop. Can also be used as a bedside table.","IkeaLink":"https://www.ikea.com/at/en/p/hemnes-chest-of-2-drawers-white-stain-80242627/" ,"Start":"166", "End":"183" },' +
     '{"Stage":1, "Start":"166", "End":"170", "X":"7", "Y":"20", "Width":"10", "Height":"25" },' +
     '{"Stage":2, "Start":"171", "End":"175", "X":"5", "Y":"20", "Width":"10", "Height":"25" },' +
     '{"Stage":3, "Start":"176", "End":"178", "X":"5", "Y":"20", "Width":"10", "Height":"25" },' +
@@ -93,7 +93,7 @@ let text12 = '{"Object":[' +
     '{"Stage":3, "Start":"189", "End":"190", "X":"48", "Y":"15", "Width":"10", "Height":"33" }]}';
 
 let text13 = '{"Object":[' +
-    '{"Name":"TARVA", "Description":"Das robuste massive Kiefernholz ist ein lebendiges Naturmaterial - durch seine Varianten in Maserung, Farbe und Struktur wirkt jedes Stueck einmalig. Durch Oelen, Lasieren oder Lackieren wird die unbehandelte Massivholzoberflaeche noch strapazierfaehiger und pflegeleichter. Unter dem Bett ist jede Menge Platz fuer Bettkaesten. Ideal zum Verstauen von zusaetzlichen Decken, Kissen.", "IkeaLink":"https://www.ikea.com/at/en/p/tarva-bed-frame-pine-s69929233/", "Start":"185", "End":"195" },' +
+    '{"Name":"TARVA", "Description":"The robust solid pine wood is a lively natural material - due to its variations in grain, color, and texture, each piece looks unique. By oiling, staining, or painting, the untreated solid wood surface becomes even more durable and easy to care for. There is plenty of space under the bed for bed boxes. Ideal for storing additional blankets, pillows.", "IkeaLink":"https://www.ikea.com/at/en/p/tarva-bed-frame-pine-s69929233/", "Start":"185", "End":"195" },' +
     '{"Stage":1, "Start":"185", "End":"186", "X":"3", "Y":"10", "Width":"35", "Height":"40" },' +
     '{"Stage":2, "Start":"187", "End":"188", "X":"4", "Y":"10", "Width":"35", "Height":"40" },' +
     '{"Stage":2, "Start":"189", "End":"190", "X":"5", "Y":"10", "Width":"35", "Height":"35" },' +
